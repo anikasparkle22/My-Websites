@@ -1,0 +1,38 @@
+"*":
+  core:
+    disabledPackages: [
+      "markdown-preview",
+      "markdown-preview-plus"
+    ]
+  "cornell-info1300": {}
+  editor:
+    autoIndent: true
+    autoIndentOnPaste: true
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+  "atom-html-preview":
+    scrollToCursor: true
+  "color-picker":
+    preferredFormat: "HEX"
+    randomColor: false
+  "markdown-preview-enhanced":
+    breakOnSingleNewLine: false
+    enableEmojiSyntax: false
+    enableLinkify: false
+    openPreviewPaneAutomatically: false
+    singlePreview: false
+  "spell-check":
+    addKnownWords: true
+    grammars: [
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.html.basic"
+      "text.md"
+      "source.js"
+    ]
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: false
