@@ -1,0 +1,148 @@
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+img.head1 {
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+body {
+  background-color: rgb(255, 253, 241);
+  font-weight: 100;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 37%;
+}
+
+table {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 90%;
+  }
+
+table th {
+  font-weight: 300;
+  max-width: 70%;
+  font-style: italic;
+  padding: 5px;
+  background-color: rgba(223, 253, 176, 0.493);
+}
+
+table td {
+    text-align: center;;
+    padding: 8px;
+    padding-right: 16px;
+  }
+
+  h1,h2 {
+      text-align: center;
+      font-weight: 100;
+  }
+
+  p.a1, p.a2 {
+    margin-right: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .confirm {
+    color: rgb(138, 22, 132);
+    font-size: smaller;
+  }
+
+  p.a1 {
+    margin-left: 55%;
+    color:rgb(138, 22, 132);
+    text-align: right;
+  }
+
+  p.a2{
+    margin-left: 55%;
+    text-align: right;
+    color: rgb(105, 28, 168);
+  }
+
+  tr:nth-child(odd) {
+    background-color: rgba(194, 253, 176, 0.26);
+  }
+
+  tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.199);
+  }
+
+
+  .feedback {
+      color: red;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 0;
+      font-size: smaller;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .forms {
+    text-align: left;
+  }
+
+  main.form1, main.form2 {
+      text-align: left;
+      margin: 90px;
+
+  }
+
+  .label1-input {
+    margin-top: 10px;
+  }
+
+  .input{
+    display: block;
+    width: 200px;
+    border: 2px solid rgba(107, 107, 107, 0.486);
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  input[type=checkbox]{
+    background-color:#b0ebd5;
+    cursor: pointer;
+  }
+
+
+  .align-right {
+    margin-top: 20px;
+    display:block;
+    justify-content: right;
+    margin-left: 250px;
+  }
+
+  input[value=Sort], input[value=Filter], input[value=Submit] {
+    background-color: rgba(111, 209, 81, 0.74);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
