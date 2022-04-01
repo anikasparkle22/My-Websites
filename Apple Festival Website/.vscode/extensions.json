@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "anseki.vscode-color",
+        "davidanson.vscode-markdownlint",
+        "celianriboulet.webvalidator",
+        "jgclark.vscode-todo-highlight"
+    ]
+}
