@@ -1,0 +1,343 @@
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+p.confirm {
+  max-width: 200px;
+}
+
+.end {
+width: 35px;
+height: 35px;
+background-color: white;
+border-radius: 5px;
+}
+
+.pcenter1{
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  max-width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pcenter2{
+  border-width: 5px;
+  border-color: black;
+  border-style: double;
+  max-width: 400px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-top: 30px;
+}
+
+.page {
+   margin: 30px;
+}
+
+.end:hover {
+  background-color: #b0ebd5;
+}
+
+.form4 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login {
+	padding: 20px 10px;
+	text-decoration: none;
+}
+
+input[type=text], [type=password], select {
+  width: 200px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+img.head1 {
+    min-width: 100%;
+    top: 37px;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+.confirmation{
+  margin-top: 39%;
+}
+
+.content{
+  margin-top: 39%;
+}
+.content1{
+  margin-top: 40%;
+  text-align: center;
+}
+.plant-data{
+  margin-top: 30px;
+}
+
+.tile-attrib {
+  margin-left: 35px;
+}
+hr.new1{
+  margin-bottom: 15px;
+  color:rgb(0, 0, 0);
+}
+hr.new2{
+  margin-bottom: 15px;
+  margin-left: -30px;
+  outline-style: double;
+  color:rgb(0, 0, 0);
+}
+
+body {
+  background-color: rgb(255, 253, 241);
+  font-weight: 100;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  margin: 0;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav {
+  background-color: rgba(147, 40, 108, 0.63);
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.add {
+  background-color: rgba(149, 28, 90, 0.539);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.add:hover {
+  background-color: rgba(154, 154, 154, 0.484);
+  color: white;
+}
+
+
+nav li {
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.center {
+  text-align: center;
+  font-size: 1.5vw;
+  background-color: white;
+  padding-top: 20px;
+  margin-top:-20px;
+  width: 15vw- 4px;
+  padding-bottom: 15px;
+  border-end-end-radius: .5vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fefefe;
+  }
+
+.small {
+  text-align: center;
+  color:rgb(145, 145, 145);
+  font-size: smaller;
+  max-width: 15vw;
+}
+
+.stack {
+  display: flex;
+  padding-top: 75px;
+  margin-top:-33px;
+  margin-left:-8px;
+  padding-top: 6px;
+  background-color: rgba(183, 79, 148, 0.63);
+  flex-direction: column;
+  min-width: 25%;
+  border-left: ridge;
+  border-width: 30px;
+  border-color: rgba(255, 255, 255, 0.511);
+  font-size: 1.5vw;
+}
+.delete {
+  margin-left: 550px;
+  cursor: pointer;
+}
+
+.gallery ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  margin: 25px;
+}
+
+.ab{
+  margin: 15px;
+}
+
+.gallery img{
+  width: 15vw;
+  height: 15vw;
+  border-start-start-radius: .5vw;
+}
+
+
+.form1, .form2 {
+  margin-top: 60px;
+  margin: 20px;
+  color: rgb(30, 30, 30);
+}
+  h3 {
+      text-align: left;
+      font-weight: 100;
+  }
+
+  .pdc {
+    font-size: 50px;
+    margin: 20px;
+  }
+
+  h1,h2 {
+    font-weight: 300;
+  }
+
+  p.a1, p.a2 {
+    margin-right: 120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: smaller;
+    font-weight: bold;
+  }
+
+  .confirm {
+    color: rgb(138, 22, 132);
+    font-size: smaller;
+  }
+
+  p.a1 {
+    margin-left: 55%;
+    color:rgb(138, 22, 132);
+    text-align: right;
+  }
+
+  p.a2{
+    margin-left: 55%;
+    text-align: right;
+    color: rgb(105, 28, 168);
+  }
+
+
+  .feedback {
+      color: red;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      margin-left: 0;
+      font-size: smaller;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .forms {
+    text-align: left;
+  }
+
+  .label1-input {
+    margin-top: 10px;
+  }
+
+  .plant-data {
+    margin-left: 60px;
+    margin-right: 90px;
+  }
+
+  .li {
+    margin: 10px;
+  }
+
+  .input{
+    display: block;
+    justify-content: left;
+    width: 180px;
+    margin-left: 20px;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 5px;
+    padding: 3px;
+  }
+
+  input[type=checkbox]{
+    background-color:#b0ebd5;
+    cursor: pointer;
+  }
+
+
+  .align-right {
+    margin-top: 20px;
+    display:block;
+    justify-content: left;
+  }
+
+  input[value=Sort], input[value=Filter], input[value=Submit], input[value=Login]  {
+    background-color: rgba(154, 154, 154, 0.484);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .pcenter {
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media (max-width: 900px) {
+
+    .stack {
+      display: none;
+    }
+
+  @media (max-width: 600px) {
+
+    .stack {
+      display: none;
+    }
+  }
+  }
