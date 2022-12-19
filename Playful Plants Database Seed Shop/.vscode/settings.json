@@ -1,0 +1,19 @@
+{
+    "editor.wordWrap": "on",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "intelephense.environment.phpVersion": "8.0.0",
+    "debug.console.collapseIdenticalLines": false,
+    "webvalidator.showPopup": false,
+    "webvalidator.validateOnSave": true,
+    "php.validate.enable": false,
+    "intelephense.diagnostics.enable": true,
+    "debug.console.wordWrap": false,
+    "markdownlint.config": {
+        "MD012": false,
+        "MD013": false,
+        "MD033": false,
+        "MD037": false
+    },
+}
