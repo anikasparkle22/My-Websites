@@ -4,3 +4,5 @@ opacity relative to 700 g/mol, opacity = 100% if above 700 g/mol
 the displays window can be changed
 the display works on night mode though it does not automatically change to nightmode every night
 part 5 is incomplete, the program crashes when I try to input links for every toxin, so I did not finish that part
+
+To make this work when you pull this, download docker desktop if you do not already have, and reopen it in a container. Contact at665@cornell.edu for any questions
