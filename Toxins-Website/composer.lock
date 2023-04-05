@@ -1,0 +1,22 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c0d337c4e4da54704054af4d5c1d7b7b",
+    "packages": [],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "~8.0.0",
+        "ext-sqlite3": "*",
+        "ext-pdo_sqlite": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
