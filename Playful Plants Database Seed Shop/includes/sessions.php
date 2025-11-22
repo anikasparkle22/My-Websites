@@ -5,6 +5,11 @@ include_once('includes/db.php');
 $session_messages = array();
 $signup_messages = array();
 
+// Sticky form values
+$sticky_login_username = '';
+$sticky_signup_username = '';
+$sticky_signup_name = '';
+
 // cookie duration expiration time in seconds
 define('SESSION_COOKIE_DURATION', 60 * 60 * 1); // 1 hour = 60 sec * 60 min * 1 hr
 
@@ -262,7 +267,7 @@ function echo_login_form($action, $messages)
   <form class="login" action="<?php echo htmlspecialchars($action) ?>" method="post" novalidate>
     <div class="label-input">
       <label for="username">Username:</label>
-      <input id="username" type="text" name="login_username" value="<?php echo htmlspecialchars($sticky_login_username); ?>" required />
+      <input id="username" type="text" name="login_username" value="<?php echo htmlspecialchars($sticky_login_username ?? ''); ?>" required />
     </div>
 
     <div class="label-input">
@@ -402,12 +407,12 @@ function echo_signup_form($action)
   <form class="signup" action="<?php echo htmlspecialchars($action) ?>" method="post" novalidate>
     <div class="group_label_input">
       <label for="name">Name:</label>
-      <input id="name" type="text" name="signup_name" value="<?php echo htmlspecialchars($sticky_signup_name); ?>" required />
+      <input id="name" type="text" name="signup_name" value="<?php echo htmlspecialchars($sticky_signup_name ?? ''); ?>" required />
     </div>
 
     <div class="group_label_input">
       <label for="username">Username:</label>
-      <input id="username" type="text" name="signup_username" value="<?php echo htmlspecialchars($sticky_signup_username); ?>" required />
+      <input id="username" type="text" name="signup_username" value="<?php echo htmlspecialchars($sticky_signup_username ?? ''); ?>" required />
     </div>
 
     <div class="group_label_input">

@@ -1,6 +1,5 @@
 <?php
-include("includes/init.php");
-$source= 'Content Source: ';
+include("includes/init.php")
 ?>
 <!DOCTYPE html>
 <html lang="en">

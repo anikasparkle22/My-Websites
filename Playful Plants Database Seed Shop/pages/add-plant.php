@@ -46,6 +46,8 @@ $an='';
 $fsu='';
 $fsh='';
 $psh='';
+$everythingdone= '';
+$False= '';
 
 
 // Add Data sticky values

@@ -17,6 +17,11 @@ $name_feedback_class = 'hidden';
 $genus_feedback_class = 'hidden';
 $attribute_feedback_class = 'hidden';
 
+
+$stickyasc_sort1 = '';
+$stickyasc_sort2 = '';
+$stickyasc_sort3 = '';
+
 //confirmation message
 $confirm1= 'hidden';
 
